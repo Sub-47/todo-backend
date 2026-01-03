@@ -1,0 +1,28 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Just a backend server",
+  "homepage": "https://github.com/Sub-47/Advanced-To-do#readme",
+  "bugs": {
+    "url": "https://github.com/Sub-47/Advanced-To-do/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sub-47/Advanced-To-do.git"
+  },
+  "license": "ISC",
+  "author": "Subham",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.2.1",
+    "nodemon": "^3.1.11",
+    "pg": "^8.16.3"
+  }
+}
